@@ -13,5 +13,6 @@ export interface FetchMemberOptions extends FetchOptions {
 
 export interface FetchMembersOptions {
   withChannel?: boolean
+  withOwner?: boolean
   withUser?: boolean
 }

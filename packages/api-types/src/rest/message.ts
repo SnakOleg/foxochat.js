@@ -36,6 +36,7 @@ export type RESTGetAPIMessageResult = APIMessage
 export interface RESTGetAPIMessageQuery {
   withChannel?: boolean
   withAttachments?: boolean
+  withUser?: boolean
   withAuthor?: boolean
 }
 

@@ -60,6 +60,7 @@ export interface RESTGetAPIChannelQuery {
  */
 export interface RESTGetAPIChannelMembersQuery {
   withChannel?: boolean
+  withOwner?: boolean
   withUser?: boolean
 }
 

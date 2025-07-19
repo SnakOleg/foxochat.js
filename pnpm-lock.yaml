@@ -174,31 +174,6 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  packages/test:
-    dependencies:
-      '@swc/helpers':
-        specifier: ^0.5.17
-        version: 0.5.17
-      foxochat.js:
-        specifier: workspace:^
-        version: link:../foxochat.js
-    devDependencies:
-      '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
-      '@rslib/core':
-        specifier: ^0.6.9
-        version: 0.6.9(@microsoft/api-extractor@7.52.7(@types/node@22.15.2))(typescript@5.8.3)
-      '@tsconfig/strictest':
-        specifier: ^2.0.5
-        version: 2.0.5
-      ts-essentials:
-        specifier: ^10.1.1
-        version: 10.1.1(typescript@5.8.3)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-
 packages:
 
   '@ast-grep/napi-darwin-arm64@0.37.0':
